@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<vehicleDefinitions xmlns="http://www.matsim.org/files/dtd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.matsim.org/files/dtd http://www.matsim.org/files/dtd/vehicleDefinitions_v2.0.xsd">
+
+	<vehicleType id="cepVehicleType0">
+
+		<capacity seats="0" standingRoomInPersons="0" other="160.0">
+
+		</capacity>
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="42.0"/>
+		<engineInformation>
+			<attributes>
+				<attribute name="fuelConsumptionLitersPerMeter" class="java.lang.Double">1.12E-4</attribute>
+				<attribute name="fuelType" class="org.matsim.vehicles.EngineInformation$FuelType">diesel</attribute>
+			</attributes>
+		</engineInformation>
+		<costInformation fixedCostsPerDay="50.54365514" costsPerMeter="3.51163E-4" costsPerSecond="0.004200975">
+
+		</costInformation>
+		<passengerCarEquivalents pce="1.0"/>
+		<networkMode networkMode="car"/>
+		<flowEfficiencyFactor factor="1.0"/>
+	</vehicleType>
+
+	<vehicleType id="cepVehicleType1">
+
+		<capacity seats="0" standingRoomInPersons="0" other="35.0">
+
+		</capacity>
+		<length meter="7.5"/>
+		<width meter="1.0"/>
+		<maximumVelocity meterPerSecond="6.94444"/>
+		<engineInformation>
+			<attributes>
+				<attribute name="fuelConsumptionLitersPerMeter" class="java.lang.Double">2.5E-4</attribute>
+				<attribute name="fuelType" class="org.matsim.vehicles.EngineInformation$FuelType">electricity</attribute>
+			</attributes>
+		</engineInformation>
+		<costInformation fixedCostsPerDay="3.26731" costsPerMeter="1.03E-4" costsPerSecond="0.004200975">
+
+		</costInformation>
+		<passengerCarEquivalents pce="1.0"/>
+		<networkMode networkMode="bike"/>
+		<flowEfficiencyFactor factor="1.0"/>
+	</vehicleType>
+
+	<vehicle id="Dr0|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr0|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr101|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr106|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr119|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr137|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr13|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr13|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr147|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr149|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr14|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr14|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr159|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr15|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr15|0|1_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr15|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr172|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr174|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr176|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr177|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr189|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr190|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr195|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr198|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr199|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr1|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr1|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr211|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr212|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr240|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr242|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr245|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr248|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr252|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr255|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr26|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr276|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr280|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr295|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr2|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr2|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr301|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr317|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr334|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr343|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr362|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr367|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr397|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr406|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr409|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr421|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr426|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr431|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr43|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr448|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr451|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr454|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr465|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr479|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr4|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr4|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr502|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr503|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr513|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr515|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr528|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr537|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr538|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr543|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr550|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr552|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr5|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr5|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr606|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr613|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr615|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr618|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr624|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr632|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr635|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr636|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr647|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr651|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr653|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr658|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr668|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr670|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr686|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr689|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr692|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr6|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr6|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr701|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr710|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr722|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr736|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr750|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr756|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr767|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr768|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr773|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr777|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr781|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr790|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr791|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr7|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr7|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr802|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr809|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr810|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr814|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr818|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr829|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr82|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr830|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr841|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr859|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr86|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr87|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr90|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr99|0_bike" type="cepVehicleType1">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr9|0|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+	<vehicle id="Dr9|1|0_car" type="cepVehicleType0">
+		<attributes>
+		</attributes>
+	</vehicle>
+		
+
+</vehicleDefinitions>
